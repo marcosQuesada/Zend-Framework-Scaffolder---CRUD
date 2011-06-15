@@ -1,0 +1,74 @@
+
+<FORM ACTION="/dcc-usuariweb/index" METHOD="POST"> 
+	 
+		  
+        
+        <?php echo $this->formLabel('id','id');?>
+        <?php echo $this->formText('id',$this->data->getId(),array('size' => 10)).'<br>';?>
+          
+        
+        <?php echo $this->formLabel('nom','nom');?>
+        <?php echo $this->formText('nom',$this->data->getNom(),array('size' => 10)).'<br>';?>
+          
+        
+        <?php echo $this->formLabel('mail','mail');?>
+        <?php echo $this->formText('mail',$this->data->getMail(),array('size' => 10)).'<br>';?>
+          
+        
+        <?php echo $this->formLabel('passwd','passwd');?>
+        <?php echo $this->formText('passwd',$this->data->getPasswd(),array('size' => 10)).'<br>';?>
+          
+        
+        <?php echo $this->formLabel('state','state');?>
+        <?php echo $this->formText('state',$this->data->getState(),array('size' => 10)).'<br>';?>
+          
+        
+        <?php echo $this->formLabel('time','time');?>
+        <?php echo $this->formText('time',$this->data->getTime(),array('size' => 10)).'<br>';?>
+          
+        
+        <?php echo $this->formLabel('documento','documento');?>
+        <?php echo $this->formText('documento',$this->data->getDocumento(),array('size' => 10)).'<br>';?>
+          
+        
+        <?php echo $this->formLabel('persones','persones');?>
+        <?php echo $this->formText('persones',$this->data->getPersones(),array('size' => 10)).'<br>';?>
+          
+        
+        <?php echo $this->formLabel('info','info');?>
+        <?php echo $this->formText('info',$this->data->getInfo(),array('size' => 10)).'<br>';?>
+          
+        
+        <?php echo $this->formLabel('imatge','imatge');?>
+        <?php echo $this->formText('imatge',$this->data->getImatge(),array('size' => 10)).'<br>';?>
+          
+        
+        <?php echo $this->formLabel('idioma','idioma');?>
+        <?php echo $this->formText('idioma',$this->data->getIdioma(),array('size' => 10)).'<br>';?>
+          
+        
+        <?php echo $this->formLabel('poblacion','poblacion');?>
+        <?php echo $this->formText('poblacion',$this->data->getPoblacion(),array('size' => 10)).'<br>';?>
+          
+        
+        <?php echo $this->formLabel('activo','activo');?>
+        <?php echo $this->formText('activo',$this->data->getActivo(),array('size' => 10)).'<br>';?>
+          
+        
+        <?php echo $this->formLabel('permalink','permalink');?>
+        <?php echo $this->formText('permalink',$this->data->getPermalink(),array('size' => 10)).'<br>';?>
+          
+        
+        <?php echo $this->formLabel('title_ca','title_ca');?>
+        <?php echo $this->formText('title_ca',$this->data->getTitle_ca(),array('size' => 10)).'<br>';?>
+          
+        
+        <?php echo $this->formLabel('keywords_ca','keywords_ca');?>
+        <?php echo $this->formText('keywords_ca',$this->data->getKeywords_ca(),array('size' => 10)).'<br>';?>
+          
+        
+        <?php echo $this->formLabel('description_ca','description_ca');?>
+        <?php echo $this->formText('description_ca',$this->data->getDescription_ca(),array('size' => 10)).'<br>';?>
+               
+	    <?php echo $this->formSubmit('enviar', 'enviar'); 
+	 ?></FORM> 

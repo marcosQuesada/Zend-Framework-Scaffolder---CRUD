@@ -1,0 +1,93 @@
+<table style="width:600px">
+<tr>
+	<td></td>
+	  
+    <td>id</td>
+          
+    <td>fk_dcc_casa</td>
+          
+    <td>titol_ca</td>
+          
+    <td>txt_ca</td>
+          
+    <td>file</td>
+          
+    <td>orden</td>
+          
+    <td>tipo</td>
+          
+    <td>cod</td>
+          
+    <td>publicado</td>
+            
+</tr>	
+<?php foreach($this->result AS $result):?>
+	<tr>		
+		<td>
+			<a href="/dcc-imagenescasa/delete/id/<?php echo str_replace('_','-',$result->getId());?>">delete</a> 
+			-
+			<a href="/dcc-imagenescasa/edit/id/<?php echo $result->getId();?>">edit</a>
+		</td>
+		  
+        <td><?php echo $result->getId();?></td>
+          
+        <td><?php echo $result->getFk_dcc_casa();?></td>
+          
+        <td><?php echo $result->getTitol_ca();?></td>
+          
+        <td><?php echo $result->getTxt_ca();?></td>
+          
+        <td><?php echo $result->getFile();?></td>
+          
+        <td><?php echo $result->getOrden();?></td>
+          
+        <td><?php echo $result->getTipo();?></td>
+          
+        <td><?php echo $result->getCod();?></td>
+          
+        <td><?php echo $result->getPublicado();?></td>
+        	</tr>
+<?php endforeach?></table>
+
+<FORM ACTION="/dcc-imagenescasa/index" METHOD="POST"> 
+	 
+		  
+        
+        <?php echo $this->formLabel('id','id');?>
+        <?php echo $this->formText('id',' ',array('size' => 10)).'<br>';?>
+          
+        
+        <?php echo $this->formLabel('fk_dcc_casa','fk_dcc_casa');?>
+        <?php echo $this->formText('fk_dcc_casa',' ',array('size' => 10)).'<br>';?>
+          
+        
+        <?php echo $this->formLabel('titol_ca','titol_ca');?>
+        <?php echo $this->formText('titol_ca',' ',array('size' => 10)).'<br>';?>
+          
+        
+        <?php echo $this->formLabel('txt_ca','txt_ca');?>
+        <?php echo $this->formText('txt_ca',' ',array('size' => 10)).'<br>';?>
+          
+        
+        <?php echo $this->formLabel('file','file');?>
+        <?php echo $this->formText('file',' ',array('size' => 10)).'<br>';?>
+          
+        
+        <?php echo $this->formLabel('orden','orden');?>
+        <?php echo $this->formText('orden',' ',array('size' => 10)).'<br>';?>
+          
+        
+        <?php echo $this->formLabel('tipo','tipo');?>
+        <?php echo $this->formText('tipo',' ',array('size' => 10)).'<br>';?>
+          
+        
+        <?php echo $this->formLabel('cod','cod');?>
+        <?php echo $this->formText('cod',' ',array('size' => 10)).'<br>';?>
+          
+        
+        <?php echo $this->formLabel('publicado','publicado');?>
+        <?php echo $this->formText('publicado',' ',array('size' => 10)).'<br>';?>
+               
+	    <?php echo $this->formSubmit('enviar', 'enviar'); 
+	 ?></FORM> 
+

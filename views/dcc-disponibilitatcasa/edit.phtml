@@ -1,0 +1,18 @@
+
+<FORM ACTION="/dcc-disponibilitatcasa/index" METHOD="POST"> 
+	 
+		  
+        
+        <?php echo $this->formLabel('id','id');?>
+        <?php echo $this->formText('id',$this->data->getId(),array('size' => 10)).'<br>';?>
+          
+        
+        <?php echo $this->formLabel('nom_ca','nom_ca');?>
+        <?php echo $this->formText('nom_ca',$this->data->getNom_ca(),array('size' => 10)).'<br>';?>
+          
+        
+        <?php echo $this->formLabel('publicado','publicado');?>
+        <?php echo $this->formText('publicado',$this->data->getPublicado(),array('size' => 10)).'<br>';?>
+               
+	    <?php echo $this->formSubmit('enviar', 'enviar'); 
+	 ?></FORM> 

@@ -1,0 +1,269 @@
+<table style="width:600px">
+<tr>
+	<td></td>
+	  
+    <td>id</td>
+          
+    <td>titulo_es</td>
+          
+    <td>titulo_ca</td>
+          
+    <td>permalink_es</td>
+          
+    <td>permalink_ca</td>
+          
+    <td>foto</td>
+          
+    <td>foto1</td>
+          
+    <td>foto2</td>
+          
+    <td>foto3</td>
+          
+    <td>foto4</td>
+          
+    <td>texto_es</td>
+          
+    <td>texto_ca</td>
+          
+    <td>blog_post_blog_category</td>
+          
+    <td>video</td>
+          
+    <td>mascontenido_es</td>
+          
+    <td>mascontenido_ca</td>
+          
+    <td>fk_dcc_casa</td>
+          
+    <td>blog_post_dcc_ptinteres</td>
+          
+    <td>fk_blog_user</td>
+          
+    <td>destacado</td>
+          
+    <td>publicado</td>
+          
+    <td>blog_post_blog_tag</td>
+          
+    <td>permitir_comentarios</td>
+          
+    <td>numero_comentarios</td>
+          
+    <td>votos</td>
+          
+    <td>fecha</td>
+          
+    <td>keywords_es</td>
+          
+    <td>keywords_ca</td>
+          
+    <td>description_es</td>
+          
+    <td>description_ca</td>
+          
+    <td>fecha_actualizacion</td>
+            
+</tr>	
+<?php foreach($this->result AS $result):?>
+	<tr>		
+		<td>
+			<a href="/blog-post/delete/id/<?php echo str_replace('_','-',$result->getId());?>">delete</a> 
+			-
+			<a href="/blog-post/edit/id/<?php echo $result->getId();?>">edit</a>
+		</td>
+		  
+        <td><?php echo $result->getId();?></td>
+          
+        <td><?php echo $result->getTitulo_es();?></td>
+          
+        <td><?php echo $result->getTitulo_ca();?></td>
+          
+        <td><?php echo $result->getPermalink_es();?></td>
+          
+        <td><?php echo $result->getPermalink_ca();?></td>
+          
+        <td><?php echo $result->getFoto();?></td>
+          
+        <td><?php echo $result->getFoto1();?></td>
+          
+        <td><?php echo $result->getFoto2();?></td>
+          
+        <td><?php echo $result->getFoto3();?></td>
+          
+        <td><?php echo $result->getFoto4();?></td>
+          
+        <td><?php echo $result->getTexto_es();?></td>
+          
+        <td><?php echo $result->getTexto_ca();?></td>
+          
+        <td><?php echo $result->getBlog_post_blog_category();?></td>
+          
+        <td><?php echo $result->getVideo();?></td>
+          
+        <td><?php echo $result->getMascontenido_es();?></td>
+          
+        <td><?php echo $result->getMascontenido_ca();?></td>
+          
+        <td><?php echo $result->getFk_dcc_casa();?></td>
+          
+        <td><?php echo $result->getBlog_post_dcc_ptinteres();?></td>
+          
+        <td><?php echo $result->getFk_blog_user();?></td>
+          
+        <td><?php echo $result->getDestacado();?></td>
+          
+        <td><?php echo $result->getPublicado();?></td>
+          
+        <td><?php echo $result->getBlog_post_blog_tag();?></td>
+          
+        <td><?php echo $result->getPermitir_comentarios();?></td>
+          
+        <td><?php echo $result->getNumero_comentarios();?></td>
+          
+        <td><?php echo $result->getVotos();?></td>
+          
+        <td><?php echo $result->getFecha();?></td>
+          
+        <td><?php echo $result->getKeywords_es();?></td>
+          
+        <td><?php echo $result->getKeywords_ca();?></td>
+          
+        <td><?php echo $result->getDescription_es();?></td>
+          
+        <td><?php echo $result->getDescription_ca();?></td>
+          
+        <td><?php echo $result->getFecha_actualizacion();?></td>
+        	</tr>
+<?php endforeach?></table>
+
+<FORM ACTION="/blog-post/index" METHOD="POST"> 
+	 
+		  
+        
+        <?php echo $this->formLabel('id','id');?>
+        <?php echo $this->formText('id',' ',array('size' => 10)).'<br>';?>
+          
+        
+        <?php echo $this->formLabel('titulo_es','titulo_es');?>
+        <?php echo $this->formText('titulo_es',' ',array('size' => 10)).'<br>';?>
+          
+        
+        <?php echo $this->formLabel('titulo_ca','titulo_ca');?>
+        <?php echo $this->formText('titulo_ca',' ',array('size' => 10)).'<br>';?>
+          
+        
+        <?php echo $this->formLabel('permalink_es','permalink_es');?>
+        <?php echo $this->formText('permalink_es',' ',array('size' => 10)).'<br>';?>
+          
+        
+        <?php echo $this->formLabel('permalink_ca','permalink_ca');?>
+        <?php echo $this->formText('permalink_ca',' ',array('size' => 10)).'<br>';?>
+          
+        
+        <?php echo $this->formLabel('foto','foto');?>
+        <?php echo $this->formText('foto',' ',array('size' => 10)).'<br>';?>
+          
+        
+        <?php echo $this->formLabel('foto1','foto1');?>
+        <?php echo $this->formText('foto1',' ',array('size' => 10)).'<br>';?>
+          
+        
+        <?php echo $this->formLabel('foto2','foto2');?>
+        <?php echo $this->formText('foto2',' ',array('size' => 10)).'<br>';?>
+          
+        
+        <?php echo $this->formLabel('foto3','foto3');?>
+        <?php echo $this->formText('foto3',' ',array('size' => 10)).'<br>';?>
+          
+        
+        <?php echo $this->formLabel('foto4','foto4');?>
+        <?php echo $this->formText('foto4',' ',array('size' => 10)).'<br>';?>
+          
+        
+        <?php echo $this->formLabel('texto_es','texto_es');?>
+        <?php echo $this->formText('texto_es',' ',array('size' => 10)).'<br>';?>
+          
+        
+        <?php echo $this->formLabel('texto_ca','texto_ca');?>
+        <?php echo $this->formText('texto_ca',' ',array('size' => 10)).'<br>';?>
+          
+        
+        <?php echo $this->formLabel('blog_post_blog_category','blog_post_blog_category');?>
+        <?php echo $this->formText('blog_post_blog_category',' ',array('size' => 10)).'<br>';?>
+          
+        
+        <?php echo $this->formLabel('video','video');?>
+        <?php echo $this->formText('video',' ',array('size' => 10)).'<br>';?>
+          
+        
+        <?php echo $this->formLabel('mascontenido_es','mascontenido_es');?>
+        <?php echo $this->formText('mascontenido_es',' ',array('size' => 10)).'<br>';?>
+          
+        
+        <?php echo $this->formLabel('mascontenido_ca','mascontenido_ca');?>
+        <?php echo $this->formText('mascontenido_ca',' ',array('size' => 10)).'<br>';?>
+          
+        
+        <?php echo $this->formLabel('fk_dcc_casa','fk_dcc_casa');?>
+        <?php echo $this->formText('fk_dcc_casa',' ',array('size' => 10)).'<br>';?>
+          
+        
+        <?php echo $this->formLabel('blog_post_dcc_ptinteres','blog_post_dcc_ptinteres');?>
+        <?php echo $this->formText('blog_post_dcc_ptinteres',' ',array('size' => 10)).'<br>';?>
+          
+        
+        <?php echo $this->formLabel('fk_blog_user','fk_blog_user');?>
+        <?php echo $this->formText('fk_blog_user',' ',array('size' => 10)).'<br>';?>
+          
+        
+        <?php echo $this->formLabel('destacado','destacado');?>
+        <?php echo $this->formText('destacado',' ',array('size' => 10)).'<br>';?>
+          
+        
+        <?php echo $this->formLabel('publicado','publicado');?>
+        <?php echo $this->formText('publicado',' ',array('size' => 10)).'<br>';?>
+          
+        
+        <?php echo $this->formLabel('blog_post_blog_tag','blog_post_blog_tag');?>
+        <?php echo $this->formText('blog_post_blog_tag',' ',array('size' => 10)).'<br>';?>
+          
+        
+        <?php echo $this->formLabel('permitir_comentarios','permitir_comentarios');?>
+        <?php echo $this->formText('permitir_comentarios',' ',array('size' => 10)).'<br>';?>
+          
+        
+        <?php echo $this->formLabel('numero_comentarios','numero_comentarios');?>
+        <?php echo $this->formText('numero_comentarios',' ',array('size' => 10)).'<br>';?>
+          
+        
+        <?php echo $this->formLabel('votos','votos');?>
+        <?php echo $this->formText('votos',' ',array('size' => 10)).'<br>';?>
+          
+        
+        <?php echo $this->formLabel('fecha','fecha');?>
+        <?php echo $this->formText('fecha',' ',array('size' => 10)).'<br>';?>
+          
+        
+        <?php echo $this->formLabel('keywords_es','keywords_es');?>
+        <?php echo $this->formText('keywords_es',' ',array('size' => 10)).'<br>';?>
+          
+        
+        <?php echo $this->formLabel('keywords_ca','keywords_ca');?>
+        <?php echo $this->formText('keywords_ca',' ',array('size' => 10)).'<br>';?>
+          
+        
+        <?php echo $this->formLabel('description_es','description_es');?>
+        <?php echo $this->formText('description_es',' ',array('size' => 10)).'<br>';?>
+          
+        
+        <?php echo $this->formLabel('description_ca','description_ca');?>
+        <?php echo $this->formText('description_ca',' ',array('size' => 10)).'<br>';?>
+          
+        
+        <?php echo $this->formLabel('fecha_actualizacion','fecha_actualizacion');?>
+        <?php echo $this->formText('fecha_actualizacion',' ',array('size' => 10)).'<br>';?>
+               
+	    <?php echo $this->formSubmit('enviar', 'enviar'); 
+	 ?></FORM> 
+

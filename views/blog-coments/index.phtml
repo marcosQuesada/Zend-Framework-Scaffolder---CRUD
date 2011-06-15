@@ -1,0 +1,93 @@
+<table style="width:600px">
+<tr>
+	<td></td>
+	  
+    <td>id</td>
+          
+    <td>nombre</td>
+          
+    <td>fk_blog_user</td>
+          
+    <td>email</td>
+          
+    <td>url</td>
+          
+    <td>comentario</td>
+          
+    <td>fecha</td>
+          
+    <td>fk_blog_post</td>
+          
+    <td>publicado</td>
+            
+</tr>	
+<?php foreach($this->result AS $result):?>
+	<tr>		
+		<td>
+			<a href="/blog-coments/delete/id/<?php echo str_replace('_','-',$result->getId());?>">delete</a> 
+			-
+			<a href="/blog-coments/edit/id/<?php echo $result->getId();?>">edit</a>
+		</td>
+		  
+        <td><?php echo $result->getId();?></td>
+          
+        <td><?php echo $result->getNombre();?></td>
+          
+        <td><?php echo $result->getFk_blog_user();?></td>
+          
+        <td><?php echo $result->getEmail();?></td>
+          
+        <td><?php echo $result->getUrl();?></td>
+          
+        <td><?php echo $result->getComentario();?></td>
+          
+        <td><?php echo $result->getFecha();?></td>
+          
+        <td><?php echo $result->getFk_blog_post();?></td>
+          
+        <td><?php echo $result->getPublicado();?></td>
+        	</tr>
+<?php endforeach?></table>
+
+<FORM ACTION="/blog-coments/index" METHOD="POST"> 
+	 
+		  
+        
+        <?php echo $this->formLabel('id','id');?>
+        <?php echo $this->formText('id',' ',array('size' => 10)).'<br>';?>
+          
+        
+        <?php echo $this->formLabel('nombre','nombre');?>
+        <?php echo $this->formText('nombre',' ',array('size' => 10)).'<br>';?>
+          
+        
+        <?php echo $this->formLabel('fk_blog_user','fk_blog_user');?>
+        <?php echo $this->formText('fk_blog_user',' ',array('size' => 10)).'<br>';?>
+          
+        
+        <?php echo $this->formLabel('email','email');?>
+        <?php echo $this->formText('email',' ',array('size' => 10)).'<br>';?>
+          
+        
+        <?php echo $this->formLabel('url','url');?>
+        <?php echo $this->formText('url',' ',array('size' => 10)).'<br>';?>
+          
+        
+        <?php echo $this->formLabel('comentario','comentario');?>
+        <?php echo $this->formText('comentario',' ',array('size' => 10)).'<br>';?>
+          
+        
+        <?php echo $this->formLabel('fecha','fecha');?>
+        <?php echo $this->formText('fecha',' ',array('size' => 10)).'<br>';?>
+          
+        
+        <?php echo $this->formLabel('fk_blog_post','fk_blog_post');?>
+        <?php echo $this->formText('fk_blog_post',' ',array('size' => 10)).'<br>';?>
+          
+        
+        <?php echo $this->formLabel('publicado','publicado');?>
+        <?php echo $this->formText('publicado',' ',array('size' => 10)).'<br>';?>
+               
+	    <?php echo $this->formSubmit('enviar', 'enviar'); 
+	 ?></FORM> 
+

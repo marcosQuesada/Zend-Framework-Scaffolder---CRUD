@@ -1,0 +1,38 @@
+
+<FORM ACTION="/dcc-metatags/index" METHOD="POST"> 
+	 
+		  
+        
+        <?php echo $this->formLabel('id','id');?>
+        <?php echo $this->formText('id',$this->data->getId(),array('size' => 10)).'<br>';?>
+          
+        
+        <?php echo $this->formLabel('Titol_es','Titol_es');?>
+        <?php echo $this->formText('Titol_es',$this->data->getTitol_es(),array('size' => 10)).'<br>';?>
+          
+        
+        <?php echo $this->formLabel('Titol_ca','Titol_ca');?>
+        <?php echo $this->formText('Titol_ca',$this->data->getTitol_ca(),array('size' => 10)).'<br>';?>
+          
+        
+        <?php echo $this->formLabel('Keywords_es','Keywords_es');?>
+        <?php echo $this->formText('Keywords_es',$this->data->getKeywords_es(),array('size' => 10)).'<br>';?>
+          
+        
+        <?php echo $this->formLabel('Keywords_ca','Keywords_ca');?>
+        <?php echo $this->formText('Keywords_ca',$this->data->getKeywords_ca(),array('size' => 10)).'<br>';?>
+          
+        
+        <?php echo $this->formLabel('Descripcio_es','Descripcio_es');?>
+        <?php echo $this->formText('Descripcio_es',$this->data->getDescripcio_es(),array('size' => 10)).'<br>';?>
+          
+        
+        <?php echo $this->formLabel('Descripcio_ca','Descripcio_ca');?>
+        <?php echo $this->formText('Descripcio_ca',$this->data->getDescripcio_ca(),array('size' => 10)).'<br>';?>
+          
+        
+        <?php echo $this->formLabel('seccio','seccio');?>
+        <?php echo $this->formText('seccio',$this->data->getSeccio(),array('size' => 10)).'<br>';?>
+               
+	    <?php echo $this->formSubmit('enviar', 'enviar'); 
+	 ?></FORM> 

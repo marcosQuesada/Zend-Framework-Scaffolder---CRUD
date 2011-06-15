@@ -1,0 +1,26 @@
+
+<FORM ACTION="/dcc-favoritos/index" METHOD="POST"> 
+	 
+		  
+        
+        <?php echo $this->formLabel('id','id');?>
+        <?php echo $this->formText('id',$this->data->getId(),array('size' => 10)).'<br>';?>
+          
+        
+        <?php echo $this->formLabel('url','url');?>
+        <?php echo $this->formText('url',$this->data->getUrl(),array('size' => 10)).'<br>';?>
+          
+        
+        <?php echo $this->formLabel('alias','alias');?>
+        <?php echo $this->formText('alias',$this->data->getAlias(),array('size' => 10)).'<br>';?>
+          
+        
+        <?php echo $this->formLabel('fk_usuario','fk_usuario');?>
+        <?php echo $this->formText('fk_usuario',$this->data->getFk_usuario(),array('size' => 10)).'<br>';?>
+          
+        
+        <?php echo $this->formLabel('variables','variables');?>
+        <?php echo $this->formText('variables',$this->data->getVariables(),array('size' => 10)).'<br>';?>
+               
+	    <?php echo $this->formSubmit('enviar', 'enviar'); 
+	 ?></FORM> 

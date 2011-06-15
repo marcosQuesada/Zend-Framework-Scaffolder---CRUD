@@ -1,0 +1,77 @@
+<table style="width:600px">
+<tr>
+	<td></td>
+	  
+    <td>id</td>
+          
+    <td>nombre</td>
+          
+    <td>usuario</td>
+          
+    <td>passwd</td>
+          
+    <td>email</td>
+          
+    <td>perfils</td>
+          
+    <td>perfil</td>
+            
+</tr>	
+<?php foreach($this->result AS $result):?>
+	<tr>		
+		<td>
+			<a href="/dcc-usuari/delete/id/<?php echo str_replace('_','-',$result->getId());?>">delete</a> 
+			-
+			<a href="/dcc-usuari/edit/id/<?php echo $result->getId();?>">edit</a>
+		</td>
+		  
+        <td><?php echo $result->getId();?></td>
+          
+        <td><?php echo $result->getNombre();?></td>
+          
+        <td><?php echo $result->getUsuario();?></td>
+          
+        <td><?php echo $result->getPasswd();?></td>
+          
+        <td><?php echo $result->getEmail();?></td>
+          
+        <td><?php echo $result->getPerfils();?></td>
+          
+        <td><?php echo $result->getPerfil();?></td>
+        	</tr>
+<?php endforeach?></table>
+
+<FORM ACTION="/dcc-usuari/index" METHOD="POST"> 
+	 
+		  
+        
+        <?php echo $this->formLabel('id','id');?>
+        <?php echo $this->formText('id',' ',array('size' => 10)).'<br>';?>
+          
+        
+        <?php echo $this->formLabel('nombre','nombre');?>
+        <?php echo $this->formText('nombre',' ',array('size' => 10)).'<br>';?>
+          
+        
+        <?php echo $this->formLabel('usuario','usuario');?>
+        <?php echo $this->formText('usuario',' ',array('size' => 10)).'<br>';?>
+          
+        
+        <?php echo $this->formLabel('passwd','passwd');?>
+        <?php echo $this->formText('passwd',' ',array('size' => 10)).'<br>';?>
+          
+        
+        <?php echo $this->formLabel('email','email');?>
+        <?php echo $this->formText('email',' ',array('size' => 10)).'<br>';?>
+          
+        
+        <?php echo $this->formLabel('perfils','perfils');?>
+        <?php echo $this->formText('perfils',' ',array('size' => 10)).'<br>';?>
+          
+        
+        <?php echo $this->formLabel('perfil','perfil');?>
+        <?php echo $this->formText('perfil',' ',array('size' => 10)).'<br>';?>
+               
+	    <?php echo $this->formSubmit('enviar', 'enviar'); 
+	 ?></FORM> 
+

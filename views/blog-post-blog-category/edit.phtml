@@ -1,0 +1,18 @@
+
+<FORM ACTION="/blog-post-blog-category/index" METHOD="POST"> 
+	 
+		  
+        
+        <?php echo $this->formLabel('id','id');?>
+        <?php echo $this->formText('id',$this->data->getId(),array('size' => 10)).'<br>';?>
+          
+        
+        <?php echo $this->formLabel('fk_blog_post','fk_blog_post');?>
+        <?php echo $this->formText('fk_blog_post',$this->data->getFk_blog_post(),array('size' => 10)).'<br>';?>
+          
+        
+        <?php echo $this->formLabel('fk_blog_category','fk_blog_category');?>
+        <?php echo $this->formText('fk_blog_category',$this->data->getFk_blog_category(),array('size' => 10)).'<br>';?>
+               
+	    <?php echo $this->formSubmit('enviar', 'enviar'); 
+	 ?></FORM> 

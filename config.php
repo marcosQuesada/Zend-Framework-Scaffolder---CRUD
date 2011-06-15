@@ -1,0 +1,60 @@
+<?php
+
+return array(
+
+	// db details
+	'db' => array(
+		'dbname' 	=> 'core',
+		'host' 		=> 'localhost',
+		'port' 		=> '3306',
+		'username' 	=> 'root',
+		'password' 	=> '',
+		//'charset' 	=> 'UTF-8',
+	),
+	
+	// generator options
+	'generator' => array(
+		'templates' => array(
+			
+		),
+		// directory where results will be saved
+		'dir' => array(
+			'models' 	=> './models',
+			'tables' 	=> './models/DbTable',
+		    'controllers' => './controllers',
+		    'views' => './views' 
+		),
+		// name patterns
+		'pattern' => array(
+			'model' => array(
+				'classname' => 'Application_Model_{table}'
+			),
+			'table' => array(
+				'classname' => 'Application_Model_DbTable_{table}',
+				'extends' => 'Zend_Db_Table_Abstract',
+			),
+			'controller' => array(
+			    'classname' => '{table}Controller',
+			    'extends' => 'Zend_Controller_Action'
+			),
+			'view' => array(
+				//'classname' => 'Application_Model_DbTable_{table}',
+				//'extends' => 'Zend_Db_Table_Abstract',
+			),		
+			'viewadd' => array(
+				//'classname' => 'Application_Model_DbTable_{table}',
+				//'extends' => 'Zend_Db_Table_Abstract',
+			)		
+		),
+		// original base from: kobus.jacek@gmail.com
+		'custom' => array(
+			'author' 	=> 'Marcos Quesada',
+			'email' 	=> 'marcos.quesadas@gmail.com',
+			'copyright' => '',
+			'license' 	=> 'Licensed ',
+			'subPackage' 	=> 'Model',
+			'package' 	=> 'scaffolder&CRUD',
+		),
+	)
+	
+);

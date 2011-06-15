@@ -1,0 +1,26 @@
+
+<FORM ACTION="/dcc-zonac/index" METHOD="POST"> 
+	 
+		  
+        
+        <?php echo $this->formLabel('id','id');?>
+        <?php echo $this->formText('id',$this->data->getId(),array('size' => 10)).'<br>';?>
+          
+        
+        <?php echo $this->formLabel('nombre_es','nombre_es');?>
+        <?php echo $this->formText('nombre_es',$this->data->getNombre_es(),array('size' => 10)).'<br>';?>
+          
+        
+        <?php echo $this->formLabel('nombre_ca','nombre_ca');?>
+        <?php echo $this->formText('nombre_ca',$this->data->getNombre_ca(),array('size' => 10)).'<br>';?>
+          
+        
+        <?php echo $this->formLabel('fk_zonad','fk_zonad');?>
+        <?php echo $this->formText('fk_zonad',$this->data->getFk_zonad(),array('size' => 10)).'<br>';?>
+          
+        
+        <?php echo $this->formLabel('publicado','publicado');?>
+        <?php echo $this->formText('publicado',$this->data->getPublicado(),array('size' => 10)).'<br>';?>
+               
+	    <?php echo $this->formSubmit('enviar', 'enviar'); 
+	 ?></FORM> 

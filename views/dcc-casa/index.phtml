@@ -1,0 +1,229 @@
+<table style="width:600px">
+<tr>
+	<td></td>
+	  
+    <td>id</td>
+          
+    <td>fk_dcc_usuariweb</td>
+          
+    <td>titol_ca</td>
+          
+    <td>cpost</td>
+          
+    <td>longi</td>
+          
+    <td>latit</td>
+          
+    <td>fk_dcc_zonab</td>
+          
+    <td>fk_dcc_casa_dcc_ptinteres</td>
+          
+    <td>fk_tipusvivenda</td>
+          
+    <td>llits_matrimoni</td>
+          
+    <td>llits_individuals</td>
+          
+    <td>dormitoris</td>
+          
+    <td>banys</td>
+          
+    <td>txt_ca</td>
+          
+    <td>fk_dcc_disponibilitatcasa</td>
+          
+    <td>fk_dcc_caractcasa</td>
+          
+    <td>fk_dcc_caractentorn</td>
+          
+    <td>estat</td>
+          
+    <td>visibilitat</td>
+          
+    <td>data_caducitat</td>
+          
+    <td>pvp</td>
+          
+    <td>publicado</td>
+          
+    <td>permalink_ca</td>
+          
+    <td>title_ca</td>
+          
+    <td>keywords_ca</td>
+          
+    <td>description_ca</td>
+            
+</tr>	
+<?php foreach($this->result AS $result):?>
+	<tr>		
+		<td>
+			<a href="/dcc-casa/delete/id/<?php echo str_replace('_','-',$result->getId());?>">delete</a> 
+			-
+			<a href="/dcc-casa/edit/id/<?php echo $result->getId();?>">edit</a>
+		</td>
+		  
+        <td><?php echo $result->getId();?></td>
+          
+        <td><?php echo $result->getFk_dcc_usuariweb();?></td>
+          
+        <td><?php echo $result->getTitol_ca();?></td>
+          
+        <td><?php echo $result->getCpost();?></td>
+          
+        <td><?php echo $result->getLongi();?></td>
+          
+        <td><?php echo $result->getLatit();?></td>
+          
+        <td><?php echo $result->getFk_dcc_zonab();?></td>
+          
+        <td><?php echo $result->getFk_dcc_casa_dcc_ptinteres();?></td>
+          
+        <td><?php echo $result->getFk_tipusvivenda();?></td>
+          
+        <td><?php echo $result->getLlits_matrimoni();?></td>
+          
+        <td><?php echo $result->getLlits_individuals();?></td>
+          
+        <td><?php echo $result->getDormitoris();?></td>
+          
+        <td><?php echo $result->getBanys();?></td>
+          
+        <td><?php echo $result->getTxt_ca();?></td>
+          
+        <td><?php echo $result->getFk_dcc_disponibilitatcasa();?></td>
+          
+        <td><?php echo $result->getFk_dcc_caractcasa();?></td>
+          
+        <td><?php echo $result->getFk_dcc_caractentorn();?></td>
+          
+        <td><?php echo $result->getEstat();?></td>
+          
+        <td><?php echo $result->getVisibilitat();?></td>
+          
+        <td><?php echo $result->getData_caducitat();?></td>
+          
+        <td><?php echo $result->getPvp();?></td>
+          
+        <td><?php echo $result->getPublicado();?></td>
+          
+        <td><?php echo $result->getPermalink_ca();?></td>
+          
+        <td><?php echo $result->getTitle_ca();?></td>
+          
+        <td><?php echo $result->getKeywords_ca();?></td>
+          
+        <td><?php echo $result->getDescription_ca();?></td>
+        	</tr>
+<?php endforeach?></table>
+
+<FORM ACTION="/dcc-casa/index" METHOD="POST"> 
+	 
+		  
+        
+        <?php echo $this->formLabel('id','id');?>
+        <?php echo $this->formText('id',' ',array('size' => 10)).'<br>';?>
+          
+        
+        <?php echo $this->formLabel('fk_dcc_usuariweb','fk_dcc_usuariweb');?>
+        <?php echo $this->formText('fk_dcc_usuariweb',' ',array('size' => 10)).'<br>';?>
+          
+        
+        <?php echo $this->formLabel('titol_ca','titol_ca');?>
+        <?php echo $this->formText('titol_ca',' ',array('size' => 10)).'<br>';?>
+          
+        
+        <?php echo $this->formLabel('cpost','cpost');?>
+        <?php echo $this->formText('cpost',' ',array('size' => 10)).'<br>';?>
+          
+        
+        <?php echo $this->formLabel('longi','longi');?>
+        <?php echo $this->formText('longi',' ',array('size' => 10)).'<br>';?>
+          
+        
+        <?php echo $this->formLabel('latit','latit');?>
+        <?php echo $this->formText('latit',' ',array('size' => 10)).'<br>';?>
+          
+        
+        <?php echo $this->formLabel('fk_dcc_zonab','fk_dcc_zonab');?>
+        <?php echo $this->formText('fk_dcc_zonab',' ',array('size' => 10)).'<br>';?>
+          
+        
+        <?php echo $this->formLabel('fk_dcc_casa_dcc_ptinteres','fk_dcc_casa_dcc_ptinteres');?>
+        <?php echo $this->formText('fk_dcc_casa_dcc_ptinteres',' ',array('size' => 10)).'<br>';?>
+          
+        
+        <?php echo $this->formLabel('fk_tipusvivenda','fk_tipusvivenda');?>
+        <?php echo $this->formText('fk_tipusvivenda',' ',array('size' => 10)).'<br>';?>
+          
+        
+        <?php echo $this->formLabel('llits_matrimoni','llits_matrimoni');?>
+        <?php echo $this->formText('llits_matrimoni',' ',array('size' => 10)).'<br>';?>
+          
+        
+        <?php echo $this->formLabel('llits_individuals','llits_individuals');?>
+        <?php echo $this->formText('llits_individuals',' ',array('size' => 10)).'<br>';?>
+          
+        
+        <?php echo $this->formLabel('dormitoris','dormitoris');?>
+        <?php echo $this->formText('dormitoris',' ',array('size' => 10)).'<br>';?>
+          
+        
+        <?php echo $this->formLabel('banys','banys');?>
+        <?php echo $this->formText('banys',' ',array('size' => 10)).'<br>';?>
+          
+        
+        <?php echo $this->formLabel('txt_ca','txt_ca');?>
+        <?php echo $this->formText('txt_ca',' ',array('size' => 10)).'<br>';?>
+          
+        
+        <?php echo $this->formLabel('fk_dcc_disponibilitatcasa','fk_dcc_disponibilitatcasa');?>
+        <?php echo $this->formText('fk_dcc_disponibilitatcasa',' ',array('size' => 10)).'<br>';?>
+          
+        
+        <?php echo $this->formLabel('fk_dcc_caractcasa','fk_dcc_caractcasa');?>
+        <?php echo $this->formText('fk_dcc_caractcasa',' ',array('size' => 10)).'<br>';?>
+          
+        
+        <?php echo $this->formLabel('fk_dcc_caractentorn','fk_dcc_caractentorn');?>
+        <?php echo $this->formText('fk_dcc_caractentorn',' ',array('size' => 10)).'<br>';?>
+          
+        
+        <?php echo $this->formLabel('estat','estat');?>
+        <?php echo $this->formText('estat',' ',array('size' => 10)).'<br>';?>
+          
+        
+        <?php echo $this->formLabel('visibilitat','visibilitat');?>
+        <?php echo $this->formText('visibilitat',' ',array('size' => 10)).'<br>';?>
+          
+        
+        <?php echo $this->formLabel('data_caducitat','data_caducitat');?>
+        <?php echo $this->formText('data_caducitat',' ',array('size' => 10)).'<br>';?>
+          
+        
+        <?php echo $this->formLabel('pvp','pvp');?>
+        <?php echo $this->formText('pvp',' ',array('size' => 10)).'<br>';?>
+          
+        
+        <?php echo $this->formLabel('publicado','publicado');?>
+        <?php echo $this->formText('publicado',' ',array('size' => 10)).'<br>';?>
+          
+        
+        <?php echo $this->formLabel('permalink_ca','permalink_ca');?>
+        <?php echo $this->formText('permalink_ca',' ',array('size' => 10)).'<br>';?>
+          
+        
+        <?php echo $this->formLabel('title_ca','title_ca');?>
+        <?php echo $this->formText('title_ca',' ',array('size' => 10)).'<br>';?>
+          
+        
+        <?php echo $this->formLabel('keywords_ca','keywords_ca');?>
+        <?php echo $this->formText('keywords_ca',' ',array('size' => 10)).'<br>';?>
+          
+        
+        <?php echo $this->formLabel('description_ca','description_ca');?>
+        <?php echo $this->formText('description_ca',' ',array('size' => 10)).'<br>';?>
+               
+	    <?php echo $this->formSubmit('enviar', 'enviar'); 
+	 ?></FORM> 
+

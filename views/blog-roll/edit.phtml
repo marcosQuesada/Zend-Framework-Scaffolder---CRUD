@@ -1,0 +1,34 @@
+
+<FORM ACTION="/blog-roll/index" METHOD="POST"> 
+	 
+		  
+        
+        <?php echo $this->formLabel('id','id');?>
+        <?php echo $this->formText('id',$this->data->getId(),array('size' => 10)).'<br>';?>
+          
+        
+        <?php echo $this->formLabel('nombre','nombre');?>
+        <?php echo $this->formText('nombre',$this->data->getNombre(),array('size' => 10)).'<br>';?>
+          
+        
+        <?php echo $this->formLabel('url','url');?>
+        <?php echo $this->formText('url',$this->data->getUrl(),array('size' => 10)).'<br>';?>
+          
+        
+        <?php echo $this->formLabel('descripcion_es','descripcion_es');?>
+        <?php echo $this->formText('descripcion_es',$this->data->getDescripcion_es(),array('size' => 10)).'<br>';?>
+          
+        
+        <?php echo $this->formLabel('descripcion_ca','descripcion_ca');?>
+        <?php echo $this->formText('descripcion_ca',$this->data->getDescripcion_ca(),array('size' => 10)).'<br>';?>
+          
+        
+        <?php echo $this->formLabel('publicada','publicada');?>
+        <?php echo $this->formText('publicada',$this->data->getPublicada(),array('size' => 10)).'<br>';?>
+          
+        
+        <?php echo $this->formLabel('orden','orden');?>
+        <?php echo $this->formText('orden',$this->data->getOrden(),array('size' => 10)).'<br>';?>
+               
+	    <?php echo $this->formSubmit('enviar', 'enviar'); 
+	 ?></FORM> 

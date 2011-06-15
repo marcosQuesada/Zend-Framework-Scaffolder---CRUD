@@ -1,0 +1,77 @@
+<table style="width:600px">
+<tr>
+	<td></td>
+	  
+    <td>id</td>
+          
+    <td>fk_dcc_casa</td>
+          
+    <td>fk_dcc_usuariweb</td>
+          
+    <td>text</td>
+          
+    <td>valoracio</td>
+          
+    <td>data</td>
+          
+    <td>publicado</td>
+            
+</tr>	
+<?php foreach($this->result AS $result):?>
+	<tr>		
+		<td>
+			<a href="/dcc-valoraciointercanvi/delete/id/<?php echo str_replace('_','-',$result->getId());?>">delete</a> 
+			-
+			<a href="/dcc-valoraciointercanvi/edit/id/<?php echo $result->getId();?>">edit</a>
+		</td>
+		  
+        <td><?php echo $result->getId();?></td>
+          
+        <td><?php echo $result->getFk_dcc_casa();?></td>
+          
+        <td><?php echo $result->getFk_dcc_usuariweb();?></td>
+          
+        <td><?php echo $result->getText();?></td>
+          
+        <td><?php echo $result->getValoracio();?></td>
+          
+        <td><?php echo $result->getData();?></td>
+          
+        <td><?php echo $result->getPublicado();?></td>
+        	</tr>
+<?php endforeach?></table>
+
+<FORM ACTION="/dcc-valoraciointercanvi/index" METHOD="POST"> 
+	 
+		  
+        
+        <?php echo $this->formLabel('id','id');?>
+        <?php echo $this->formText('id',' ',array('size' => 10)).'<br>';?>
+          
+        
+        <?php echo $this->formLabel('fk_dcc_casa','fk_dcc_casa');?>
+        <?php echo $this->formText('fk_dcc_casa',' ',array('size' => 10)).'<br>';?>
+          
+        
+        <?php echo $this->formLabel('fk_dcc_usuariweb','fk_dcc_usuariweb');?>
+        <?php echo $this->formText('fk_dcc_usuariweb',' ',array('size' => 10)).'<br>';?>
+          
+        
+        <?php echo $this->formLabel('text','text');?>
+        <?php echo $this->formText('text',' ',array('size' => 10)).'<br>';?>
+          
+        
+        <?php echo $this->formLabel('valoracio','valoracio');?>
+        <?php echo $this->formText('valoracio',' ',array('size' => 10)).'<br>';?>
+          
+        
+        <?php echo $this->formLabel('data','data');?>
+        <?php echo $this->formText('data',' ',array('size' => 10)).'<br>';?>
+          
+        
+        <?php echo $this->formLabel('publicado','publicado');?>
+        <?php echo $this->formText('publicado',' ',array('size' => 10)).'<br>';?>
+               
+	    <?php echo $this->formSubmit('enviar', 'enviar'); 
+	 ?></FORM> 
+

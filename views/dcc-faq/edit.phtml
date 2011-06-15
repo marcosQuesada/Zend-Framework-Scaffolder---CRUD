@@ -1,0 +1,26 @@
+
+<FORM ACTION="/dcc-faq/index" METHOD="POST"> 
+	 
+		  
+        
+        <?php echo $this->formLabel('id','id');?>
+        <?php echo $this->formText('id',$this->data->getId(),array('size' => 10)).'<br>';?>
+          
+        
+        <?php echo $this->formLabel('pregunta_ca','pregunta_ca');?>
+        <?php echo $this->formText('pregunta_ca',$this->data->getPregunta_ca(),array('size' => 10)).'<br>';?>
+          
+        
+        <?php echo $this->formLabel('resposta_ca','resposta_ca');?>
+        <?php echo $this->formText('resposta_ca',$this->data->getResposta_ca(),array('size' => 10)).'<br>';?>
+          
+        
+        <?php echo $this->formLabel('orden','orden');?>
+        <?php echo $this->formText('orden',$this->data->getOrden(),array('size' => 10)).'<br>';?>
+          
+        
+        <?php echo $this->formLabel('publicado','publicado');?>
+        <?php echo $this->formText('publicado',$this->data->getPublicado(),array('size' => 10)).'<br>';?>
+               
+	    <?php echo $this->formSubmit('enviar', 'enviar'); 
+	 ?></FORM> 

@@ -1,0 +1,18 @@
+
+<FORM ACTION="/dcc-meinteresa/index" METHOD="POST"> 
+	 
+		  
+        
+        <?php echo $this->formLabel('id','id');?>
+        <?php echo $this->formText('id',$this->data->getId(),array('size' => 10)).'<br>';?>
+          
+        
+        <?php echo $this->formLabel('fk_usuariweb','fk_usuariweb');?>
+        <?php echo $this->formText('fk_usuariweb',$this->data->getFk_usuariweb(),array('size' => 10)).'<br>';?>
+          
+        
+        <?php echo $this->formLabel('fkcasa','fkcasa');?>
+        <?php echo $this->formText('fkcasa',$this->data->getFkcasa(),array('size' => 10)).'<br>';?>
+               
+	    <?php echo $this->formSubmit('enviar', 'enviar'); 
+	 ?></FORM> 

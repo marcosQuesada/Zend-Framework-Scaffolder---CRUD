@@ -1,0 +1,85 @@
+<table style="width:600px">
+<tr>
+	<td></td>
+	  
+    <td>id</td>
+          
+    <td>Titol_es</td>
+          
+    <td>Titol_ca</td>
+          
+    <td>Keywords_es</td>
+          
+    <td>Keywords_ca</td>
+          
+    <td>Descripcio_es</td>
+          
+    <td>Descripcio_ca</td>
+          
+    <td>seccio</td>
+            
+</tr>	
+<?php foreach($this->result AS $result):?>
+	<tr>		
+		<td>
+			<a href="/dcc-metatags/delete/id/<?php echo str_replace('_','-',$result->getId());?>">delete</a> 
+			-
+			<a href="/dcc-metatags/edit/id/<?php echo $result->getId();?>">edit</a>
+		</td>
+		  
+        <td><?php echo $result->getId();?></td>
+          
+        <td><?php echo $result->getTitol_es();?></td>
+          
+        <td><?php echo $result->getTitol_ca();?></td>
+          
+        <td><?php echo $result->getKeywords_es();?></td>
+          
+        <td><?php echo $result->getKeywords_ca();?></td>
+          
+        <td><?php echo $result->getDescripcio_es();?></td>
+          
+        <td><?php echo $result->getDescripcio_ca();?></td>
+          
+        <td><?php echo $result->getSeccio();?></td>
+        	</tr>
+<?php endforeach?></table>
+
+<FORM ACTION="/dcc-metatags/index" METHOD="POST"> 
+	 
+		  
+        
+        <?php echo $this->formLabel('id','id');?>
+        <?php echo $this->formText('id',' ',array('size' => 10)).'<br>';?>
+          
+        
+        <?php echo $this->formLabel('Titol_es','Titol_es');?>
+        <?php echo $this->formText('Titol_es',' ',array('size' => 10)).'<br>';?>
+          
+        
+        <?php echo $this->formLabel('Titol_ca','Titol_ca');?>
+        <?php echo $this->formText('Titol_ca',' ',array('size' => 10)).'<br>';?>
+          
+        
+        <?php echo $this->formLabel('Keywords_es','Keywords_es');?>
+        <?php echo $this->formText('Keywords_es',' ',array('size' => 10)).'<br>';?>
+          
+        
+        <?php echo $this->formLabel('Keywords_ca','Keywords_ca');?>
+        <?php echo $this->formText('Keywords_ca',' ',array('size' => 10)).'<br>';?>
+          
+        
+        <?php echo $this->formLabel('Descripcio_es','Descripcio_es');?>
+        <?php echo $this->formText('Descripcio_es',' ',array('size' => 10)).'<br>';?>
+          
+        
+        <?php echo $this->formLabel('Descripcio_ca','Descripcio_ca');?>
+        <?php echo $this->formText('Descripcio_ca',' ',array('size' => 10)).'<br>';?>
+          
+        
+        <?php echo $this->formLabel('seccio','seccio');?>
+        <?php echo $this->formText('seccio',' ',array('size' => 10)).'<br>';?>
+               
+	    <?php echo $this->formSubmit('enviar', 'enviar'); 
+	 ?></FORM> 
+

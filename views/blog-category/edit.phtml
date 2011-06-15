@@ -1,0 +1,50 @@
+
+<FORM ACTION="/blog-category/index" METHOD="POST"> 
+	 
+		  
+        
+        <?php echo $this->formLabel('id','id');?>
+        <?php echo $this->formText('id',$this->data->getId(),array('size' => 10)).'<br>';?>
+          
+        
+        <?php echo $this->formLabel('nombre_es','nombre_es');?>
+        <?php echo $this->formText('nombre_es',$this->data->getNombre_es(),array('size' => 10)).'<br>';?>
+          
+        
+        <?php echo $this->formLabel('nombre_ca','nombre_ca');?>
+        <?php echo $this->formText('nombre_ca',$this->data->getNombre_ca(),array('size' => 10)).'<br>';?>
+          
+        
+        <?php echo $this->formLabel('permalink_es','permalink_es');?>
+        <?php echo $this->formText('permalink_es',$this->data->getPermalink_es(),array('size' => 10)).'<br>';?>
+          
+        
+        <?php echo $this->formLabel('permalink_ca','permalink_ca');?>
+        <?php echo $this->formText('permalink_ca',$this->data->getPermalink_ca(),array('size' => 10)).'<br>';?>
+          
+        
+        <?php echo $this->formLabel('fk_blog_category','fk_blog_category');?>
+        <?php echo $this->formText('fk_blog_category',$this->data->getFk_blog_category(),array('size' => 10)).'<br>';?>
+          
+        
+        <?php echo $this->formLabel('descripcion_es','descripcion_es');?>
+        <?php echo $this->formText('descripcion_es',$this->data->getDescripcion_es(),array('size' => 10)).'<br>';?>
+          
+        
+        <?php echo $this->formLabel('descripcion_ca','descripcion_ca');?>
+        <?php echo $this->formText('descripcion_ca',$this->data->getDescripcion_ca(),array('size' => 10)).'<br>';?>
+          
+        
+        <?php echo $this->formLabel('classname_es','classname_es');?>
+        <?php echo $this->formText('classname_es',$this->data->getClassname_es(),array('size' => 10)).'<br>';?>
+          
+        
+        <?php echo $this->formLabel('classname_ca','classname_ca');?>
+        <?php echo $this->formText('classname_ca',$this->data->getClassname_ca(),array('size' => 10)).'<br>';?>
+          
+        
+        <?php echo $this->formLabel('publicada','publicada');?>
+        <?php echo $this->formText('publicada',$this->data->getPublicada(),array('size' => 10)).'<br>';?>
+               
+	    <?php echo $this->formSubmit('enviar', 'enviar'); 
+	 ?></FORM> 

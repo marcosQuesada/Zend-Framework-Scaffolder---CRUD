@@ -1,0 +1,109 @@
+<table style="width:600px">
+<tr>
+	<td></td>
+	  
+    <td>id</td>
+          
+    <td>fk_dcc_valoraciointercanvi</td>
+          
+    <td>fk_casa_tria</td>
+          
+    <td>fk_dcc_casaintercanvi</td>
+          
+    <td>fk_usuariweb_a</td>
+          
+    <td>fk_usuariweb_b</td>
+          
+    <td>data_ini</td>
+          
+    <td>data_fin</td>
+          
+    <td>data_proposta</td>
+          
+    <td>comentario</td>
+          
+    <td>publicado</td>
+            
+</tr>	
+<?php foreach($this->result AS $result):?>
+	<tr>		
+		<td>
+			<a href="/dcc-intercanvi/delete/id/<?php echo str_replace('_','-',$result->getId());?>">delete</a> 
+			-
+			<a href="/dcc-intercanvi/edit/id/<?php echo $result->getId();?>">edit</a>
+		</td>
+		  
+        <td><?php echo $result->getId();?></td>
+          
+        <td><?php echo $result->getFk_dcc_valoraciointercanvi();?></td>
+          
+        <td><?php echo $result->getFk_casa_tria();?></td>
+          
+        <td><?php echo $result->getFk_dcc_casaintercanvi();?></td>
+          
+        <td><?php echo $result->getFk_usuariweb_a();?></td>
+          
+        <td><?php echo $result->getFk_usuariweb_b();?></td>
+          
+        <td><?php echo $result->getData_ini();?></td>
+          
+        <td><?php echo $result->getData_fin();?></td>
+          
+        <td><?php echo $result->getData_proposta();?></td>
+          
+        <td><?php echo $result->getComentario();?></td>
+          
+        <td><?php echo $result->getPublicado();?></td>
+        	</tr>
+<?php endforeach?></table>
+
+<FORM ACTION="/dcc-intercanvi/index" METHOD="POST"> 
+	 
+		  
+        
+        <?php echo $this->formLabel('id','id');?>
+        <?php echo $this->formText('id',' ',array('size' => 10)).'<br>';?>
+          
+        
+        <?php echo $this->formLabel('fk_dcc_valoraciointercanvi','fk_dcc_valoraciointercanvi');?>
+        <?php echo $this->formText('fk_dcc_valoraciointercanvi',' ',array('size' => 10)).'<br>';?>
+          
+        
+        <?php echo $this->formLabel('fk_casa_tria','fk_casa_tria');?>
+        <?php echo $this->formText('fk_casa_tria',' ',array('size' => 10)).'<br>';?>
+          
+        
+        <?php echo $this->formLabel('fk_dcc_casaintercanvi','fk_dcc_casaintercanvi');?>
+        <?php echo $this->formText('fk_dcc_casaintercanvi',' ',array('size' => 10)).'<br>';?>
+          
+        
+        <?php echo $this->formLabel('fk_usuariweb_a','fk_usuariweb_a');?>
+        <?php echo $this->formText('fk_usuariweb_a',' ',array('size' => 10)).'<br>';?>
+          
+        
+        <?php echo $this->formLabel('fk_usuariweb_b','fk_usuariweb_b');?>
+        <?php echo $this->formText('fk_usuariweb_b',' ',array('size' => 10)).'<br>';?>
+          
+        
+        <?php echo $this->formLabel('data_ini','data_ini');?>
+        <?php echo $this->formText('data_ini',' ',array('size' => 10)).'<br>';?>
+          
+        
+        <?php echo $this->formLabel('data_fin','data_fin');?>
+        <?php echo $this->formText('data_fin',' ',array('size' => 10)).'<br>';?>
+          
+        
+        <?php echo $this->formLabel('data_proposta','data_proposta');?>
+        <?php echo $this->formText('data_proposta',' ',array('size' => 10)).'<br>';?>
+          
+        
+        <?php echo $this->formLabel('comentario','comentario');?>
+        <?php echo $this->formText('comentario',' ',array('size' => 10)).'<br>';?>
+          
+        
+        <?php echo $this->formLabel('publicado','publicado');?>
+        <?php echo $this->formText('publicado',' ',array('size' => 10)).'<br>';?>
+               
+	    <?php echo $this->formSubmit('enviar', 'enviar'); 
+	 ?></FORM> 
+
