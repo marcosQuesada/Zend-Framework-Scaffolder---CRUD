@@ -1,0 +1,18 @@
+
+<FORM ACTION="/product/index" METHOD="POST"> 
+	 
+		  
+        
+        <?php echo $this->formLabel('category','category');?>
+        <?php echo $this->formText('category',$this->data->getCategory(),array('size' => 10)).'<br>';?>
+          
+        
+        <?php echo $this->formLabel('id','id');?>
+        <?php echo $this->formText('id',$this->data->getId(),array('size' => 10)).'<br>';?>
+          
+        
+        <?php echo $this->formLabel('price','price');?>
+        <?php echo $this->formText('price',$this->data->getPrice(),array('size' => 10)).'<br>';?>
+               
+	    <?php echo $this->formSubmit('enviar', 'enviar'); 
+	 ?></FORM> 

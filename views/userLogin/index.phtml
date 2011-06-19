@@ -1,0 +1,61 @@
+<table style="width:600px">
+<tr>
+	<td></td>
+	  
+    <td>id</td>
+          
+    <td>username</td>
+          
+    <td>password</td>
+          
+    <td>name</td>
+          
+    <td>email</td>
+            
+</tr>	
+<?php foreach($this->result AS $result):?>
+	<tr>		
+		<td>
+			<a href="/userLogin/delete/id/<?php echo str_replace('_','-',$result->getId());?>">delete</a> 
+			-
+			<a href="/userLogin/edit/id/<?php echo $result->getId();?>">edit</a>
+		</td>
+		  
+        <td><?php echo $result->getId();?></td>
+          
+        <td><?php echo $result->getUsername();?></td>
+          
+        <td><?php echo $result->getPassword();?></td>
+          
+        <td><?php echo $result->getName();?></td>
+          
+        <td><?php echo $result->getEmail();?></td>
+        	</tr>
+<?php endforeach?></table>
+
+<FORM ACTION="/userLogin/index" METHOD="POST"> 
+	 
+		  
+        
+        <?php echo $this->formLabel('id','id');?>
+        <?php echo $this->formText('id',' ',array('size' => 10)).'<br>';?>
+          
+        
+        <?php echo $this->formLabel('username','username');?>
+        <?php echo $this->formText('username',' ',array('size' => 10)).'<br>';?>
+          
+        
+        <?php echo $this->formLabel('password','password');?>
+        <?php echo $this->formText('password',' ',array('size' => 10)).'<br>';?>
+          
+        
+        <?php echo $this->formLabel('name','name');?>
+        <?php echo $this->formText('name',' ',array('size' => 10)).'<br>';?>
+          
+        
+        <?php echo $this->formLabel('email','email');?>
+        <?php echo $this->formText('email',' ',array('size' => 10)).'<br>';?>
+               
+	    <?php echo $this->formSubmit('enviar', 'enviar'); 
+	 ?></FORM> 
+

@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/subversion/!svn/ver/7949/516.WEB.INTC/ZFversion/library/Zend/Cloud/DocumentService
+END
+DocumentSet.php
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/subversion/!svn/ver/7949/516.WEB.INTC/ZFversion/library/Zend/Cloud/DocumentService/DocumentSet.php
+END
+Document.php
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/subversion/!svn/ver/7949/516.WEB.INTC/ZFversion/library/Zend/Cloud/DocumentService/Document.php
+END
+Exception.php
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/subversion/!svn/ver/7949/516.WEB.INTC/ZFversion/library/Zend/Cloud/DocumentService/Exception.php
+END
+Adapter.php
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/subversion/!svn/ver/7949/516.WEB.INTC/ZFversion/library/Zend/Cloud/DocumentService/Adapter.php
+END
+Query.php
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/subversion/!svn/ver/7949/516.WEB.INTC/ZFversion/library/Zend/Cloud/DocumentService/Query.php
+END
+QueryAdapter.php
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/subversion/!svn/ver/7949/516.WEB.INTC/ZFversion/library/Zend/Cloud/DocumentService/QueryAdapter.php
+END
+Factory.php
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/subversion/!svn/ver/7949/516.WEB.INTC/ZFversion/library/Zend/Cloud/DocumentService/Factory.php
+END

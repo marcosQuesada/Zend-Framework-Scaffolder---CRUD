@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/subversion/!svn/ver/7949/516.WEB.INTC/ZFversion/library/Zend/Service/DeveloperGarden/Response/SmsValidation
+END
+InvalidateResponse.php
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/subversion/!svn/ver/7949/516.WEB.INTC/ZFversion/library/Zend/Service/DeveloperGarden/Response/SmsValidation/InvalidateResponse.php
+END
+ValidatedNumber.php
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/subversion/!svn/ver/7949/516.WEB.INTC/ZFversion/library/Zend/Service/DeveloperGarden/Response/SmsValidation/ValidatedNumber.php
+END
+GetValidatedNumbersResponse.php
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/subversion/!svn/ver/7949/516.WEB.INTC/ZFversion/library/Zend/Service/DeveloperGarden/Response/SmsValidation/GetValidatedNumbersResponse.php
+END
+SendValidationKeywordResponse.php
+K 25
+svn:wc:ra_dav:version-url
+V 142
+/subversion/!svn/ver/7949/516.WEB.INTC/ZFversion/library/Zend/Service/DeveloperGarden/Response/SmsValidation/SendValidationKeywordResponse.php
+END
+ValidateResponse.php
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/subversion/!svn/ver/7949/516.WEB.INTC/ZFversion/library/Zend/Service/DeveloperGarden/Response/SmsValidation/ValidateResponse.php
+END

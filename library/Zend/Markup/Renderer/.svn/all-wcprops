@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/subversion/!svn/ver/7949/516.WEB.INTC/ZFversion/library/Zend/Markup/Renderer
+END
+TokenConverterInterface.php
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/subversion/!svn/ver/7949/516.WEB.INTC/ZFversion/library/Zend/Markup/Renderer/TokenConverterInterface.php
+END
+RendererAbstract.php
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/subversion/!svn/ver/7949/516.WEB.INTC/ZFversion/library/Zend/Markup/Renderer/RendererAbstract.php
+END
+Exception.php
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/subversion/!svn/ver/7949/516.WEB.INTC/ZFversion/library/Zend/Markup/Renderer/Exception.php
+END
+Html.php
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/subversion/!svn/ver/7949/516.WEB.INTC/ZFversion/library/Zend/Markup/Renderer/Html.php
+END

@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/subversion/!svn/ver/7949/516.WEB.INTC/ZFversion/library/Zend/Service/DeveloperGarden/Response/SecurityTokenServer
+END
+Exception.php
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/subversion/!svn/ver/7949/516.WEB.INTC/ZFversion/library/Zend/Service/DeveloperGarden/Response/SecurityTokenServer/Exception.php
+END
+Interface.php
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/subversion/!svn/ver/7949/516.WEB.INTC/ZFversion/library/Zend/Service/DeveloperGarden/Response/SecurityTokenServer/Interface.php
+END
+GetTokensResponse.php
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/subversion/!svn/ver/7949/516.WEB.INTC/ZFversion/library/Zend/Service/DeveloperGarden/Response/SecurityTokenServer/GetTokensResponse.php
+END
+SecurityTokenResponse.php
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/subversion/!svn/ver/7949/516.WEB.INTC/ZFversion/library/Zend/Service/DeveloperGarden/Response/SecurityTokenServer/SecurityTokenResponse.php
+END

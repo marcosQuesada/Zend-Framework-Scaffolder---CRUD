@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/subversion/!svn/ver/7949/516.WEB.INTC/ZFversion/library/Zend/Loader
+END
+Exception.php
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/subversion/!svn/ver/7949/516.WEB.INTC/ZFversion/library/Zend/Loader/Exception.php
+END
+Autoloader.php
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/subversion/!svn/ver/7949/516.WEB.INTC/ZFversion/library/Zend/Loader/Autoloader.php
+END
+PluginLoader.php
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/subversion/!svn/ver/7949/516.WEB.INTC/ZFversion/library/Zend/Loader/PluginLoader.php
+END

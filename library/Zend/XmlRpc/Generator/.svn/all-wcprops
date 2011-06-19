@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/subversion/!svn/ver/7949/516.WEB.INTC/ZFversion/library/Zend/XmlRpc/Generator
+END
+GeneratorAbstract.php
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/subversion/!svn/ver/7949/516.WEB.INTC/ZFversion/library/Zend/XmlRpc/Generator/GeneratorAbstract.php
+END
+XmlWriter.php
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/subversion/!svn/ver/7949/516.WEB.INTC/ZFversion/library/Zend/XmlRpc/Generator/XmlWriter.php
+END
+DomDocument.php
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/subversion/!svn/ver/7949/516.WEB.INTC/ZFversion/library/Zend/XmlRpc/Generator/DomDocument.php
+END

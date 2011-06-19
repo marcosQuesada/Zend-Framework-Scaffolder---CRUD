@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/subversion/!svn/ver/7949/516.WEB.INTC/ZFversion/library/Zend/Tool/Framework/Loader
+END
+Interface.php
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/subversion/!svn/ver/7949/516.WEB.INTC/ZFversion/library/Zend/Tool/Framework/Loader/Interface.php
+END
+Abstract.php
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/subversion/!svn/ver/7949/516.WEB.INTC/ZFversion/library/Zend/Tool/Framework/Loader/Abstract.php
+END
+IncludePathLoader.php
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/subversion/!svn/ver/7949/516.WEB.INTC/ZFversion/library/Zend/Tool/Framework/Loader/IncludePathLoader.php
+END
+BasicLoader.php
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/subversion/!svn/ver/7949/516.WEB.INTC/ZFversion/library/Zend/Tool/Framework/Loader/BasicLoader.php
+END

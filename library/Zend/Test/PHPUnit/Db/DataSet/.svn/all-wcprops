@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/subversion/!svn/ver/7949/516.WEB.INTC/ZFversion/library/Zend/Test/PHPUnit/Db/DataSet
+END
+DbRowset.php
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/subversion/!svn/ver/7949/516.WEB.INTC/ZFversion/library/Zend/Test/PHPUnit/Db/DataSet/DbRowset.php
+END
+QueryDataSet.php
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/subversion/!svn/ver/7949/516.WEB.INTC/ZFversion/library/Zend/Test/PHPUnit/Db/DataSet/QueryDataSet.php
+END
+DbTable.php
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/subversion/!svn/ver/7949/516.WEB.INTC/ZFversion/library/Zend/Test/PHPUnit/Db/DataSet/DbTable.php
+END
+QueryTable.php
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/subversion/!svn/ver/7949/516.WEB.INTC/ZFversion/library/Zend/Test/PHPUnit/Db/DataSet/QueryTable.php
+END
+DbTableDataSet.php
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/subversion/!svn/ver/7949/516.WEB.INTC/ZFversion/library/Zend/Test/PHPUnit/Db/DataSet/DbTableDataSet.php
+END

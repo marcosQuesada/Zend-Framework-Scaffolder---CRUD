@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/subversion/!svn/ver/7949/516.WEB.INTC/ZFversion/library/Zend/Ldap/Node/RootDse
+END
+eDirectory.php
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/subversion/!svn/ver/7949/516.WEB.INTC/ZFversion/library/Zend/Ldap/Node/RootDse/eDirectory.php
+END
+ActiveDirectory.php
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/subversion/!svn/ver/7949/516.WEB.INTC/ZFversion/library/Zend/Ldap/Node/RootDse/ActiveDirectory.php
+END
+OpenLdap.php
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/subversion/!svn/ver/7949/516.WEB.INTC/ZFversion/library/Zend/Ldap/Node/RootDse/OpenLdap.php
+END

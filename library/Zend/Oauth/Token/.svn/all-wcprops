@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/subversion/!svn/ver/7949/516.WEB.INTC/ZFversion/library/Zend/Oauth/Token
+END
+Access.php
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/subversion/!svn/ver/7949/516.WEB.INTC/ZFversion/library/Zend/Oauth/Token/Access.php
+END
+AuthorizedRequest.php
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/subversion/!svn/ver/7949/516.WEB.INTC/ZFversion/library/Zend/Oauth/Token/AuthorizedRequest.php
+END
+Request.php
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/subversion/!svn/ver/7949/516.WEB.INTC/ZFversion/library/Zend/Oauth/Token/Request.php
+END

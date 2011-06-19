@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/subversion/!svn/ver/7949/516.WEB.INTC/ZFversion/library/Zend/Cloud/QueueService/Adapter
+END
+WindowsAzure.php
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/subversion/!svn/ver/7949/516.WEB.INTC/ZFversion/library/Zend/Cloud/QueueService/Adapter/WindowsAzure.php
+END
+AbstractAdapter.php
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/subversion/!svn/ver/7949/516.WEB.INTC/ZFversion/library/Zend/Cloud/QueueService/Adapter/AbstractAdapter.php
+END
+ZendQueue.php
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/subversion/!svn/ver/7949/516.WEB.INTC/ZFversion/library/Zend/Cloud/QueueService/Adapter/ZendQueue.php
+END
+Sqs.php
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/subversion/!svn/ver/7949/516.WEB.INTC/ZFversion/library/Zend/Cloud/QueueService/Adapter/Sqs.php
+END

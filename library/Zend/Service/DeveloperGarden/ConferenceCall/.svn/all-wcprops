@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/subversion/!svn/ver/7949/516.WEB.INTC/ZFversion/library/Zend/Service/DeveloperGarden/ConferenceCall
+END
+ConferenceDetail.php
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/subversion/!svn/ver/7949/516.WEB.INTC/ZFversion/library/Zend/Service/DeveloperGarden/ConferenceCall/ConferenceDetail.php
+END
+Exception.php
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/subversion/!svn/ver/7949/516.WEB.INTC/ZFversion/library/Zend/Service/DeveloperGarden/ConferenceCall/Exception.php
+END
+Participant.php
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/subversion/!svn/ver/7949/516.WEB.INTC/ZFversion/library/Zend/Service/DeveloperGarden/ConferenceCall/Participant.php
+END
+ParticipantDetail.php
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/subversion/!svn/ver/7949/516.WEB.INTC/ZFversion/library/Zend/Service/DeveloperGarden/ConferenceCall/ParticipantDetail.php
+END
+ParticipantStatus.php
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/subversion/!svn/ver/7949/516.WEB.INTC/ZFversion/library/Zend/Service/DeveloperGarden/ConferenceCall/ParticipantStatus.php
+END
+ConferenceAccount.php
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/subversion/!svn/ver/7949/516.WEB.INTC/ZFversion/library/Zend/Service/DeveloperGarden/ConferenceCall/ConferenceAccount.php
+END
+ConferenceSchedule.php
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/subversion/!svn/ver/7949/516.WEB.INTC/ZFversion/library/Zend/Service/DeveloperGarden/ConferenceCall/ConferenceSchedule.php
+END

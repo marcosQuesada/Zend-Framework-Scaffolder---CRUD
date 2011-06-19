@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/subversion/!svn/ver/7949/516.WEB.INTC/ZFversion/library/Zend/Cloud/DocumentService/Adapter
+END
+SimpleDb.php
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/subversion/!svn/ver/7949/516.WEB.INTC/ZFversion/library/Zend/Cloud/DocumentService/Adapter/SimpleDb.php
+END
+WindowsAzure.php
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/subversion/!svn/ver/7949/516.WEB.INTC/ZFversion/library/Zend/Cloud/DocumentService/Adapter/WindowsAzure.php
+END
+AbstractAdapter.php
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/subversion/!svn/ver/7949/516.WEB.INTC/ZFversion/library/Zend/Cloud/DocumentService/Adapter/AbstractAdapter.php
+END

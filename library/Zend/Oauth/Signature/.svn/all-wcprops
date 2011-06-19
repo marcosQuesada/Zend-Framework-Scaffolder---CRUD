@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/subversion/!svn/ver/7949/516.WEB.INTC/ZFversion/library/Zend/Oauth/Signature
+END
+Rsa.php
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/subversion/!svn/ver/7949/516.WEB.INTC/ZFversion/library/Zend/Oauth/Signature/Rsa.php
+END
+SignatureAbstract.php
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/subversion/!svn/ver/7949/516.WEB.INTC/ZFversion/library/Zend/Oauth/Signature/SignatureAbstract.php
+END
+Hmac.php
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/subversion/!svn/ver/7949/516.WEB.INTC/ZFversion/library/Zend/Oauth/Signature/Hmac.php
+END
+Plaintext.php
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/subversion/!svn/ver/7949/516.WEB.INTC/ZFversion/library/Zend/Oauth/Signature/Plaintext.php
+END

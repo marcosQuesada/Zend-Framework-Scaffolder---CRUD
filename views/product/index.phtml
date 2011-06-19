@@ -1,0 +1,45 @@
+<table style="width:600px">
+<tr>
+	<td></td>
+	  
+    <td>category</td>
+          
+    <td>id</td>
+          
+    <td>price</td>
+            
+</tr>	
+<?php foreach($this->result AS $result):?>
+	<tr>		
+		<td>
+			<a href="/product/delete/id/<?php echo str_replace('_','-',$result->getCategory());?>">delete</a> 
+			-
+			<a href="/product/edit/id/<?php echo $result->getCategory();?>">edit</a>
+		</td>
+		  
+        <td><?php echo $result->getCategory();?></td>
+          
+        <td><?php echo $result->getId();?></td>
+          
+        <td><?php echo $result->getPrice();?></td>
+        	</tr>
+<?php endforeach?></table>
+
+<FORM ACTION="/product/index" METHOD="POST"> 
+	 
+		  
+        
+        <?php echo $this->formLabel('category','category');?>
+        <?php echo $this->formText('category',' ',array('size' => 10)).'<br>';?>
+          
+        
+        <?php echo $this->formLabel('id','id');?>
+        <?php echo $this->formText('id',' ',array('size' => 10)).'<br>';?>
+          
+        
+        <?php echo $this->formLabel('price','price');?>
+        <?php echo $this->formText('price',' ',array('size' => 10)).'<br>';?>
+               
+	    <?php echo $this->formSubmit('enviar', 'enviar'); 
+	 ?></FORM> 
+

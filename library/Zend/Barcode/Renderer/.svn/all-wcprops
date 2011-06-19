@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/subversion/!svn/ver/7949/516.WEB.INTC/ZFversion/library/Zend/Barcode/Renderer
+END
+Pdf.php
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/subversion/!svn/ver/7949/516.WEB.INTC/ZFversion/library/Zend/Barcode/Renderer/Pdf.php
+END
+RendererAbstract.php
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/subversion/!svn/ver/7949/516.WEB.INTC/ZFversion/library/Zend/Barcode/Renderer/RendererAbstract.php
+END
+Exception.php
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/subversion/!svn/ver/7949/516.WEB.INTC/ZFversion/library/Zend/Barcode/Renderer/Exception.php
+END
+Svg.php
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/subversion/!svn/ver/7949/516.WEB.INTC/ZFversion/library/Zend/Barcode/Renderer/Svg.php
+END
+Image.php
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/subversion/!svn/ver/7949/516.WEB.INTC/ZFversion/library/Zend/Barcode/Renderer/Image.php
+END

@@ -1,0 +1,26 @@
+
+<FORM ACTION="/userLogin/index" METHOD="POST"> 
+	 
+		  
+        
+        <?php echo $this->formLabel('id','id');?>
+        <?php echo $this->formText('id',$this->data->getId(),array('size' => 10)).'<br>';?>
+          
+        
+        <?php echo $this->formLabel('username','username');?>
+        <?php echo $this->formText('username',$this->data->getUsername(),array('size' => 10)).'<br>';?>
+          
+        
+        <?php echo $this->formLabel('password','password');?>
+        <?php echo $this->formText('password',$this->data->getPassword(),array('size' => 10)).'<br>';?>
+          
+        
+        <?php echo $this->formLabel('name','name');?>
+        <?php echo $this->formText('name',$this->data->getName(),array('size' => 10)).'<br>';?>
+          
+        
+        <?php echo $this->formLabel('email','email');?>
+        <?php echo $this->formText('email',$this->data->getEmail(),array('size' => 10)).'<br>';?>
+               
+	    <?php echo $this->formSubmit('enviar', 'enviar'); 
+	 ?></FORM> 

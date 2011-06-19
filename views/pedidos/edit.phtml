@@ -1,0 +1,18 @@
+
+<FORM ACTION="/pedidos/index" METHOD="POST"> 
+	 
+		  
+        
+        <?php echo $this->formLabel('id','id');?>
+        <?php echo $this->formText('id',$this->data->getId(),array('size' => 10)).'<br>';?>
+          
+        
+        <?php echo $this->formLabel('orden','orden');?>
+        <?php echo $this->formText('orden',$this->data->getOrden(),array('size' => 10)).'<br>';?>
+          
+        
+        <?php echo $this->formLabel('fk_userLogin','fk_userLogin');?>
+        <?php echo $this->formText('fk_userLogin',$this->data->getFk_userLogin(),array('size' => 10)).'<br>';?>
+               
+	    <?php echo $this->formSubmit('enviar', 'enviar'); 
+	 ?></FORM> 

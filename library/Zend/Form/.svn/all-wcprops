@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/subversion/!svn/ver/7949/516.WEB.INTC/ZFversion/library/Zend/Form
+END
+Element.php
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/subversion/!svn/ver/7949/516.WEB.INTC/ZFversion/library/Zend/Form/Element.php
+END
+SubForm.php
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/subversion/!svn/ver/7949/516.WEB.INTC/ZFversion/library/Zend/Form/SubForm.php
+END
+Exception.php
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/subversion/!svn/ver/7949/516.WEB.INTC/ZFversion/library/Zend/Form/Exception.php
+END
+DisplayGroup.php
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/subversion/!svn/ver/7949/516.WEB.INTC/ZFversion/library/Zend/Form/DisplayGroup.php
+END

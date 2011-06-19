@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/subversion/!svn/ver/7949/516.WEB.INTC/ZFversion/library/Zend/Ldap/Node/Schema/ObjectClass
+END
+ActiveDirectory.php
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/subversion/!svn/ver/7949/516.WEB.INTC/ZFversion/library/Zend/Ldap/Node/Schema/ObjectClass/ActiveDirectory.php
+END
+Interface.php
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/subversion/!svn/ver/7949/516.WEB.INTC/ZFversion/library/Zend/Ldap/Node/Schema/ObjectClass/Interface.php
+END
+OpenLdap.php
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/subversion/!svn/ver/7949/516.WEB.INTC/ZFversion/library/Zend/Ldap/Node/Schema/ObjectClass/OpenLdap.php
+END

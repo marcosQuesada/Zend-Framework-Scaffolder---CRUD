@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/subversion/!svn/ver/7949/516.WEB.INTC/ZFversion/library/Zend/Memory
+END
+Manager.php
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/subversion/!svn/ver/7949/516.WEB.INTC/ZFversion/library/Zend/Memory/Manager.php
+END
+Value.php
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/subversion/!svn/ver/7949/516.WEB.INTC/ZFversion/library/Zend/Memory/Value.php
+END
+Exception.php
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/subversion/!svn/ver/7949/516.WEB.INTC/ZFversion/library/Zend/Memory/Exception.php
+END
+Container.php
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/subversion/!svn/ver/7949/516.WEB.INTC/ZFversion/library/Zend/Memory/Container.php
+END
+AccessController.php
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/subversion/!svn/ver/7949/516.WEB.INTC/ZFversion/library/Zend/Memory/AccessController.php
+END
