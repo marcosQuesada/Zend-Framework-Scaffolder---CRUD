@@ -62,8 +62,8 @@ class Generator
 		
 		foreach ($tmp as $name => $model){
 			self::log('Rendering '.$name.'.');
-			Zend_Debug::dump($model,'MODEL');
-			//$view->make($model);
+			//Zend_Debug::dump($model,'MODEL');
+			$view->make($model);
 		}
 
 		self::log('Completed in '.(time()-$time).' seconds.');
